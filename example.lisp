@@ -1,5 +1,5 @@
 (in-package :cl-spread-example)
-
+(defvar out *standard-output*)
 
 (defun find-words (str)
 	   (do ((counter 0 (1+ counter))
