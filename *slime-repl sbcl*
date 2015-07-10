@@ -1,0 +1,166 @@
+; SLIME 2014-06-17
+CL-USER> (ql:quickload :cl-spread)
+To load "cl-spread":
+  Load 1 ASDF system:
+    cl-spread
+; Loading "cl-spread"
+..............
+; 
+; caught ERROR:
+;   READ error during COMPILE-FILE:
+;   
+;     Package BT does not exist.
+;   
+;       Line: 40, Column: 21, File-Position: 1021
+;   
+;       Stream: #<SB-INT:FORM-TRACKING-STREAM
+;                 for "file /ss/prog/lisp/cl-spread/example.lisp" {10061CA113}>
+; 
+; compilation unit aborted
+;   caught 3 fatal ERROR conditions
+;   caught 1 ERROR condition
+; Evaluation aborted on #<UIOP/LISP-BUILD:COMPILE-FILE-ERROR {10063A2F33}>.
+CL-USER> (ql:quickload :cl-spread)
+To load "cl-spread":
+  Load 1 ASDF system:
+    cl-spread
+; Loading "cl-spread"
+; 
+; caught ERROR:
+;   READ error during COMPILE-FILE:
+;   
+;     Package BT does not exist.
+;   
+;       Line: 40, Column: 21, File-Position: 1021
+;   
+;       Stream: #<SB-INT:FORM-TRACKING-STREAM
+;                 for "file /ss/prog/lisp/cl-spread/example.lisp" {100469C153}>
+; 
+; compilation unit aborted
+;   caught 3 fatal ERROR conditions
+;   caught 1 ERROR condition
+; Evaluation aborted on #<UIOP/LISP-BUILD:COMPILE-FILE-ERROR {1004833623}>.
+CL-USER> (ql:quickload :cl-spread)
+To load "cl-spread":
+  Load 1 ASDF system:
+    cl-spread
+; Loading "cl-spread"
+; 
+; caught ERROR:
+;   READ error during COMPILE-FILE:
+;   
+;     Package BT does not exist.
+;   
+;       Line: 40, Column: 21, File-Position: 1021
+;   
+;       Stream: #<SB-INT:FORM-TRACKING-STREAM
+;                 for "file /ss/prog/lisp/cl-spread/example.lisp" {10060DBC13}>
+; 
+; compilation unit aborted
+;   caught 3 fatal ERROR conditions
+;   caught 1 ERROR condition
+; Evaluation aborted on #<UIOP/LISP-BUILD:COMPILE-FILE-ERROR {1006247303}>.
+CL-USER> (ql:quickload :cl-spread)
+To load "cl-spread":
+  Load 1 ASDF system:
+    cl-spread
+; Loading "cl-spread"
+; 
+; caught ERROR:
+;   READ error during COMPILE-FILE:
+;   
+;     Package BT does not exist.
+;   
+;       Line: 40, Column: 21, File-Position: 1021
+;   
+;       Stream: #<SB-INT:FORM-TRACKING-STREAM
+;                 for "file /ss/prog/lisp/cl-spread/example.lisp" {10069F3C13}>
+; 
+; compilation unit aborted
+;   caught 3 fatal ERROR conditions
+;   caught 1 ERROR condition
+; Evaluation aborted on #<UIOP/LISP-BUILD:COMPILE-FILE-ERROR {1006B79BD3}>.
+CL-USER> (sb-ext:exit)
+CL-USER> (ql:quickload :cl-spread)
+To load "cl-spread":
+  Load 1 ASDF system:
+    cl-spread
+; Loading "cl-spread"
+.............
+; 
+; caught ERROR:
+;   READ error during COMPILE-FILE:
+;   
+;     Package BT does not exist.
+;   
+;       Line: 40, Column: 21, File-Position: 1021
+;   
+;       Stream: #<SB-INT:FORM-TRACKING-STREAM
+;                 for "file /ss/prog/lisp/cl-spread/example.lisp" {1005440FC3}>
+; 
+; compilation unit aborted
+;   caught 3 fatal ERROR conditions
+;   caught 1 ERROR condition
+; Evaluation aborted on #<UIOP/LISP-BUILD:COMPILE-FILE-ERROR {10057534B3}>.
+CL-USER> (ql:quickload :cl-spread-example)
+; Evaluation aborted on #<QUICKLISP-CLIENT:SYSTEM-NOT-FOUND {1005E6CAC3}>.
+CL-USER> (ql:quickload :cl-spread-example)
+; Evaluation aborted on #<QUICKLISP-CLIENT:SYSTEM-NOT-FOUND {1004268293}>.
+CL-USER> (ql:quickload :cl-spread)
+To load "cl-spread":
+  Load 1 ASDF system:
+    cl-spread
+; Loading "cl-spread"
+; 
+; caught ERROR:
+;   READ error during COMPILE-FILE:
+;   
+;     Package BT does not exist.
+;   
+;       Line: 40, Column: 21, File-Position: 1021
+;   
+;       Stream: #<SB-INT:FORM-TRACKING-STREAM
+;                 for "file /ss/prog/lisp/cl-spread/example.lisp" {100493CEF3}>
+; 
+; compilation unit aborted
+;   caught 3 fatal ERROR conditions
+;   caught 1 ERROR condition
+; Evaluation aborted on #<UIOP/LISP-BUILD:COMPILE-FILE-ERROR {1004AA6DA3}>.
+CL-USER> (ql:quickload :cl-spread)
+To load "cl-spread":
+  Load 1 ASDF system:
+    cl-spread
+; Loading "cl-spread"
+[package cl-spread]...............................
+[package cl-spread-example]............
+(:CL-SPREAD)
+CL-USER> (cl-spread-example)
+; in: CL-SPREAD-EXAMPLE
+;     (CL-SPREAD-EXAMPLE)
+; 
+; caught STYLE-WARNING:
+;   undefined function: CL-SPREAD-EXAMPLE
+; 
+; compilation unit finished
+;   Undefined function:
+;     CL-SPREAD-EXAMPLE
+;   caught 1 STYLE-WARNING condition
+; Evaluation aborted on #<UNDEFINED-FUNCTION CL-SPREAD-EXAMPLE {10040A7C53}>.
+CL-USER> (cl-spread-example:main)
+; Evaluation aborted on #<SB-INT:SIMPLE-READER-PACKAGE-ERROR "The symbol ~S is not external in the ~A package." {10046AF433}>.
+CL-USER> (in-package :cl-spread-example)
+#<COMMON-LISP:PACKAGE "CL-SPREAD-EXAMPLE">
+CL-SPREAD-EXAMPLE> (main)
+
+; in: MAIN
+;     (CL-SPREAD:MAIN)
+; 
+; caught COMMON-LISP:STYLE-WARNING:
+;   undefined function: MAIN
+; 
+; compilation unit finished
+;   Undefined function:
+;     MAIN
+;   caught 1 STYLE-WARNING condition
+; Evaluation aborted on #<UNDEFINED-FUNCTION MAIN {10051DC333}>.
+CL-SPREAD-EXAMPLE> 
